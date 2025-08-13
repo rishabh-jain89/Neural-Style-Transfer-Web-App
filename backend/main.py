@@ -6,10 +6,10 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 
-from backend.database import crud, database
-from backend.database import models
-from backend.database.database import SessionLocal, engine
-from backend.style import run_style_transfer
+from database import crud, database
+from database import models
+from database.database import SessionLocal, engine
+from style import run_style_transfer
 
 models.Base.metadata.create_all(bind=engine)
 

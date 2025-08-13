@@ -18,6 +18,7 @@ app = FastAPI(title="Neural Style Transfer API")
 origins = [
     "http://localhost:3000", "http://localhost:5173",
     "http://127.0.0.1:5173", "http://localhost:63342",
+    "https://neural-style-transfer-web-app.vercel.app/",
 ]
 app.add_middleware(
     CORSMiddleware, allow_origins=origins, allow_credentials=True,

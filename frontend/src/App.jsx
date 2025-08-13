@@ -3,7 +3,7 @@ import axios from 'axios';
 import ImageUploader from './components/ImageUploader';
 import PresetGallery from './components/PresetGallery';
 
-const API_URL = "http://localhost:8000";
+const API_URL = "https://neural-style-transfer-web-app.onrender.com";
 
 function App() {
     const [contentImage, setContentImage] = useState(null);

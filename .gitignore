@@ -1,0 +1,21 @@
+*.pyc
+venv/
+*.env
+
+*.db
+*.sqlite3
+
+uploads/
+outputs/
+
+backend/uploads
+backend/outputs
+
+node_modules/
+dist/
+.DS_Store
+npm-debug.log*
+
+.idea/
+# Project exclude paths
+/.venv/
